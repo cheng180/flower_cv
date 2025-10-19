@@ -1,0 +1,68 @@
+# === 基础环境 ===
+absl-py==1.4.0
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.14.1
+matplotlib==3.9.2
+tqdm==4.65.2
+PyYAML==6.0.2
+requests==2.28.2
+protobuf==3.19.6
+
+# === 深度学习框架 ===
+torch==2.4.1
+torchvision==0.19.1
+torchaudio==2.4.1
+tensorflow==2.9.3
+tensorflow-hub==0.16.1
+tensorflow-datasets==4.8.3
+tensorflow-text==2.9.0
+tensorflow-io-gcs-filesystem==0.37.1
+tensorflow-metadata==1.12.0
+
+# === JAX 生态 ===
+jax==0.4.26
+jaxlib==0.4.26
+jax-cuda12-pjrt==0.4.26
+jax-cuda12-plugin==0.4.26
+flax==0.8.2
+optax==0.2.2
+orbax-checkpoint==0.5.9
+paxml==1.4.0
+praxis==1.4.0
+
+# === OpenMMLab 系列 ===
+mmengine==0.10.4
+mmcv==2.1.0
+mmdet==3.3.0
+openmim==0.3.9
+
+# === Google Research 系列 ===
+t5==0.9.4
+lingvo==0.12.7
+chex==0.1.86
+etils==1.7.0
+ml_collections==0.1.1
+
+# === 可视化 & 日志 ===
+tensorboard==2.9.1
+wandb==0.17.8
+rich==13.4.2
+
+# === Jupyter & Notebook 支持 ===
+jupyterlab==4.0.13
+notebook==7.0.8
+ipywidgets==8.1.5
+
+# === 图像 & 其他工具 ===
+opencv-python==4.10.0.84
+Pillow==10.4.0
+scikit-learn==1.5.1
+einops==0.7.0
+tokenizers==0.19.1
+transformers==4.44.2
+sentencepiece==0.1.99
+
+timm
+albumentations==1.4.3   # 高效数据增强库
+seaborn==0.13.2          # 混淆矩阵可视化
